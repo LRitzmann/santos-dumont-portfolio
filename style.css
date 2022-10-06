@@ -26,12 +26,63 @@
 }
 
 .header-pic {
-    scale: 55%;
-    right: 705px;
-    bottom: 1000px;
-    z-index: -1;
+    scale: 105%;
+    right: 0px;
+    bottom: 450px;
+
 }
 
 html {
     overflow-x:hidden;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 244, 211);
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.aspectRatioBox {
+    padding-top: calc(3 / 4 * 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+.inner {
+/* overlay the inner <div> exactly on top of its parent */
+top: 460px;
+left: 30px;
+right: 0;
+bottom: 0;
+color: white;
+
+}
+
+.bio-header {
+    font-size: 60px;
+    color: rgb(93, 58, 28);
+}
+
+.bio-heading {
+    color: rgb(93, 58, 28);
+    font-style: italic;
+}
+
+.bio-text {
+    font-size: 24px;
+}
+
+.aspectRatioBox2 {
+    padding-top: calc( 20/30 * 100%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+.portrait {
+    top:100px; 
 }
