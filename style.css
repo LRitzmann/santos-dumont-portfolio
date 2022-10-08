@@ -73,6 +73,16 @@ color: white;
 
 }
 
+.inner2 {
+    /* overlay the inner <div> exactly on top of its parent */
+    top: 0px;
+    left: 1100px;
+    right: 0;
+    bottom: 0;
+    color: white;
+    
+    }
+
 .bio-header {
     font-size: 60px;
     color: rgb(93, 58, 28);
@@ -80,6 +90,11 @@ color: white;
 
 .bio-heading {
     color: rgb(93, 58, 28);
+    font-style: italic;
+}
+
+.bio-heading-2 {
+    color: rgb(19, 12, 6);
     font-style: italic;
 }
 
@@ -104,7 +119,6 @@ color: white;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
-
   }
 
 
@@ -145,3 +159,75 @@ color: white;
     font-size: 20px;
     font-style: italic;
 }
+
+.header-pic-2 {
+    scale: 100%;
+    right: :0px;
+    bottom: 0px;
+
+}
+
+.aspectRatioBox4 {
+    padding-top: calc(10 / 30 * 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.fab2 {
+    scale: 200%;
+    position: absolute;
+    top: 130px;
+    right: 70px;
+}
+
+.fab3 {
+    scale: 200%;
+    position: absolute;
+    top: 130px;
+    right: 120px;
+}
+
+.fab4 {
+    scale: 200%;
+    position: absolute;
+    top: 130px;
+    right: 170px;
+}
+
+.fab5 {
+    scale: 200%;
+    position: absolute;
+    top: 130px;
+    right: 220px;
+}
+
+.no-blue {
+    text-decoration: none;
+    color: black;
+  }
+
+.no-blue:hover {
+    text-decoration:none;
+    color: rgb(113, 61, 34);
+}
+
+.footer-text {
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    font-style: italic;
+}
+
+nav {
+    z-index: 20;
+}
+
+#bio {
+
+}
+
+.text-sortabold {
+    font-weight: 600;
+    font-size: 20px;
+  }
