@@ -13,20 +13,19 @@
       </head>
       <body>
         <!--nav-bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 py-3 border-bottom">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-dark" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+        <nav class="navbar navbar-expand-lg px-3">
+            <ul class="navbar-nav d-flex">
               <li class="nav-item active mx-5">
-                <a class="nav-link text-sortabold text-dark" href="#bio">Bio</a>
+                <a class="nav-link text-sortabold" href="#"><p>Santos Dumont's Portfolio</p></a>
+              </li>
+              <li class="nav-item active mx-5">
+                <a class="nav-link text-sortabold" href="#bio"><p>Bio</p></a>
               </li>
               <li class="nav-item mx-5">
-                <a class="nav-link text-sortabold text-dark" href="#">Works</a>
+                <a class="nav-link text-sortabold" href="#works"><p>Works</p></a>
               </li>
               <li class="nav-item mx-5">
-                  <a class="nav-link text-sortabold text-dark" href="#">Social</a>
+                  <a class="nav-link text-sortabold" href="#social"><p>Social</p></a>
               </li>
             </ul>
           </div>
@@ -40,7 +39,8 @@
             </div>
           </div>
         </div>
-            <h1 class="ps-5 bio-header fw-bold" id="bio">A Brief Bio</h1>
+          <div id="bio">
+            <h1 class="pt-5 ps-5 bio-header fw-bold">A Brief Bio</h1>
             <div class="px-5 row">
               <div class="col-6">
                 <h1 class="bio-heading">The Man</h1>
@@ -51,44 +51,46 @@
               </div>
             </div>
           </div>
+        </div>
           <hr>
-          <h1 class="ps-5 py-5 bio-heading">Notable Works</h1>
-          <div class="px-5 row flex-nowrap overflow-scroll scrollable-row">
-            <div class="col-5">
-              <div class="aspectRatioBox3 balloon1" style="background-image: url(./images/balloon.JPG);"></div>
-              <span class="work-header">'Brazil', 1898</span>
-              <p class="work-text">Brazil first flew on 4 July 1898, and was the smallest aircraft built at the time – inflated with hydrogen, it covered 113 metres in a silk envelope of 6 metres in diameter, weighing 27.5 kg without the crewman and made more than 200 flights. According to biographer Gondin da Fonseca, Santos Dumont was influenced to create his first balloon after following the Paris-Amsterdam race on his tricycle.</p>
-            </div>
-            <div class="pb-5 col-5">
-              <div class="aspectRatioBox3 airship1" style="background-image: url(./images/no1.jpg);"></div>
-              <span class="work-header">'Airship No. 1', 1898</span>
-              <p class="work-text">The first airship designed by Santos-Dumont, the No. 1, was 25 metres long with a volume of 186 cubic metres, made its first takeoff attempt in February 1898, after being inflated in Henri Lachambre's workshops in Vaugirard. Snowy conditions caused the airship to flex and crash. "At a height of five or six metres, over Longchamp, the apparatus suddenly bent and the crash began. Of my entire career, this is the most abominable memory I have in store."</p>
-            </div>
-            <div class="col-5">
-              <div class="aspectRatioBox3 airship5" style="background-image: url(./images/no5.jpg);"></div>
-              <span class="work-header">'Airship No. 5', 1901</span>
-              <p class="work-text">No. 5 was built to compete for the Henry Deutsch de la Meurthe award for a flight from the Aero-Club de France airfield in Saint-Cloud to the Eiffel Tower and back in 30 minutes. It used the extended envelope of No. 4, from which a triangular gondola made of pine was suspended. Other innovations included the use of piano wire to suspend the gondola, reducing drag, and the use of water ballast tanks. It was powered by a 12 hp, 4-cylinder air-cooled engine driving a propeller.</p>
-            </div>
-            <div class="col-5">
-              <div class="aspectRatioBox3 airship9" style="background-image: url(./images/no9.jpg);"></div>
-              <span class="work-header">'Airship No. 9', 1903</span>
-              <p class="work-text">No. 9, with 261 cubic metres and 3 hp, was a travel airship, in which Santos-Dumont made several flights throughout 1903, including the first night flight of an airship on 24 June, and the last of these came on 14 July, when it took part in a military parade in commemoration of the 114th anniversary of the Storming of the Bastille. The first woman to fly an aircraft was Aida de Acosta, on 29 June 1903, in No. 9.</p>
-            </div>
-            <div class="col-5">
-              <div class="aspectRatioBox3 bis14" style="background-image: url(./images/14bisA.jpg);"></div>
-              <span class="work-header">'Oiseau de Proie (14-bis)', 1906</span>
-              <p class="work-text">He then built a hybrid machine, the 14-bis or Oiseau de Proie, consolidating his studies of what had been done in aviation until then, finished after two months, in mid-1906, an aeroplane attached to a hydrogen balloon to assist takeoff. For completing the 14-bis, on 18 July Santos-Dumont signed up to compete in the events and presented the exotic aircraft for the first time the next day, attached to a balloon, at Bagatelle, where he ran some races, obtaining appreciable jumps.</p>
+          <div id="works">
+            <h1 class="ps-5 py-5 bio-heading">Notable Works</h1>
+            <div class="px-5 row flex-nowrap overflow-scroll scrollable-row">
+              <div class="col-5">
+                <div class="aspectRatioBox3 balloon1" style="background-image: url(./images/balloon.JPG);"></div>
+                <span class="work-header">'Brazil', 1898</span>
+                <p class="work-text">Brazil first flew on 4 July 1898, and was the smallest aircraft built at the time – inflated with hydrogen, it covered 113 metres in a silk envelope of 6 metres in diameter, weighing 27.5 kg without the crewman and made more than 200 flights. According to biographer Gondin da Fonseca, Santos Dumont was influenced to create his first balloon after following the Paris-Amsterdam race on his tricycle.</p>
+              </div>
+              <div class="pb-5 col-5">
+                <div class="aspectRatioBox3 airship1" style="background-image: url(./images/no1.jpg);"></div>
+                <span class="work-header">'Airship No. 1', 1898</span>
+                <p class="work-text">The first airship designed by Santos-Dumont, the No. 1, was 25 metres long with a volume of 186 cubic metres, made its first takeoff attempt in February 1898, after being inflated in Henri Lachambre's workshops in Vaugirard. Snowy conditions caused the airship to flex and crash. "At a height of five or six metres, over Longchamp, the apparatus suddenly bent and the crash began. Of my entire career, this is the most abominable memory I have in store."</p>
+              </div>
+              <div class="col-5">
+                <div class="aspectRatioBox3 airship5" style="background-image: url(./images/no5.jpg);"></div>
+                <span class="work-header">'Airship No. 5', 1901</span>
+                <p class="work-text">No. 5 was built to compete for the Henry Deutsch de la Meurthe award for a flight from the Aero-Club de France airfield in Saint-Cloud to the Eiffel Tower and back in 30 minutes. It used the extended envelope of No. 4, from which a triangular gondola made of pine was suspended. Other innovations included the use of piano wire to suspend the gondola, reducing drag, and the use of water ballast tanks. It was powered by a 12 hp, 4-cylinder air-cooled engine driving a propeller.</p>
+              </div>
+              <div class="col-5">
+                <div class="aspectRatioBox3 airship9" style="background-image: url(./images/no9.jpg);"></div>
+                <span class="work-header">'Airship No. 9', 1903</span>
+                <p class="work-text">No. 9, with 261 cubic metres and 3 hp, was a travel airship, in which Santos-Dumont made several flights throughout 1903, including the first night flight of an airship on 24 June, and the last of these came on 14 July, when it took part in a military parade in commemoration of the 114th anniversary of the Storming of the Bastille. The first woman to fly an aircraft was Aida de Acosta, on 29 June 1903, in No. 9.</p>
+              </div>
+              <div class="col-5">
+                <div class="aspectRatioBox3 bis14" style="background-image: url(./images/14bisA.jpg);"></div>
+                <span class="work-header">'Oiseau de Proie (14-bis)', 1906</span>
+                <p class="work-text">He then built a hybrid machine, the 14-bis or Oiseau de Proie, consolidating his studies of what had been done in aviation until then, finished after two months, in mid-1906, an aeroplane attached to a hydrogen balloon to assist takeoff. For completing the 14-bis, on 18 July Santos-Dumont signed up to compete in the events and presented the exotic aircraft for the first time the next day, attached to a balloon, at Bagatelle, where he ran some races, obtaining appreciable jumps.</p>
+              </div>
             </div>
           </div>
-          <hr>
-          <div class="header-pic-2 aspectRatioBox4 first d-flex position-relative" style="background-image: url(./images/deutschprizev2.jpg)">
-            <h1 class="ps-5 py-5 bio-heading-2 inner2 position-absolute">Follow The Legend</h1>
-            <a href="#" class="no-blue"><i class="fab fab2 fa-twitter"></i></a>
-            <a href="#" class="no-blue"><i class="fab fab3 fa-instagram"></i></a>
-            <a href="#" class="no-blue"><i class="fab fab4 fa-linkedin"></i></a>
-            <a href="#" class="no-blue"><i class="fab fab5 fa-facebook"></i></a>
-            <p class="footer-text">Part of Altacademy's Fullstack Program</p>
-          </div>
-          <div class="px-5 row flex-nowrap overflow-scroll scrollable-row">
+          <div class="pt-10 row">
+            <div class="header-pic-2 aspectRatioBox4 first d-flex position-relative" style="background-image: url(./images/deutschprizev3.jpg)" id="social">
+              <h1 class="ps-5 py-5 bio-heading-2 inner2 position-absolute">Follow The Legend</h1>
+              <a href="#" class="no-blue"><i class="fab fab2 fa-twitter"></i></a>
+              <a href="#" class="no-blue"><i class="fab fab3 fa-instagram"></i></a>
+              <a href="#" class="no-blue"><i class="fab fab4 fa-linkedin"></i></a>
+              <a href="#" class="no-blue"><i class="fab fab5 fa-facebook"></i></a>
+              <p class="footer-text">Part of Altacademy's Fullstack Program</p>
+            </div>
       </body>
 </html>
