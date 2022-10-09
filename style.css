@@ -34,6 +34,7 @@
     line-height: 40px;
     font-weight: lighter;
     color: rgb(255, 244, 211);
+    opacity: 88%;
 }
 
 .header-pic {
@@ -163,7 +164,8 @@ color: white;
 .header-pic-2 {
     scale: 100%;
     right: :0px;
-    bottom: 0px;
+    bottom: 16px;
+    mix-blend-mode: multiply;
 
 }
 
@@ -178,28 +180,28 @@ color: white;
     scale: 200%;
     position: absolute;
     top: 130px;
-    right: 70px;
+    right: 90px;
 }
 
 .fab3 {
     scale: 200%;
     position: absolute;
     top: 130px;
-    right: 120px;
+    right: 140px;
 }
 
 .fab4 {
     scale: 200%;
     position: absolute;
     top: 130px;
-    right: 170px;
+    right: 190px;
 }
 
 .fab5 {
     scale: 200%;
     position: absolute;
     top: 130px;
-    right: 220px;
+    right: 240px;
 }
 
 .no-blue {
@@ -214,13 +216,42 @@ color: white;
 
 .footer-text {
     position: absolute;
-    right: 70px;
-    bottom: 20px;
+    right: 90px;
+    bottom: 30px;
     font-style: italic;
 }
 
 nav {
     z-index: 20;
+    background-color: rgba(37, 26, 18, 0.65);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+}
+
+nav span {
+    color: rgb(236, 182, 94);
+    font-family: monospace;
+}
+
+nav p {
+    color: rgb(236, 182, 94);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+nav p:hover {
+    color: rgb(246, 214, 163);
+}
+
+.nav-title {
+    font-size: 21px;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 
 #bio {
@@ -228,6 +259,11 @@ nav {
 }
 
 .text-sortabold {
-    font-weight: 600;
     font-size: 20px;
+    font-family:monospace;
   }
+
+
+.pt-10 {
+    padding-top: 120px;
+}
